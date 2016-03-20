@@ -1,0 +1,3 @@
+interface Error {
+	stack?: string;
+}

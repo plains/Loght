@@ -1,0 +1,28 @@
+{
+  "name": "loght",
+  "version": "1.0.0",
+  "description": "Log stat",
+  "main": "loght.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@zmgitlab.zmlearn.com:libs/loght.git"
+  },
+  "author": "plains",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.4.3",
+    "express": "^4.13.3",
+    "globby": "^4.0.0",
+    "gulp": "^3.9.1",
+    "moment": "^2.12.0",
+    "mysql": "^2.10.2",
+    "sequelize": "^3.6.0",
+    "sqlite3": "^3.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}

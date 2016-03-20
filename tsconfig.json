@@ -1,0 +1,43 @@
+{
+    "version": "1.8.2",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noEmitOnError": true,
+        "noLib": false,
+        "sourceMap": true,
+        "diagnostics": false,
+        "experimentalDecorators": true,
+        "allowUnreachableCode": true,
+        "noImplicitUseStrict": true,
+        "outDir": "dist"
+    },
+    "filesGlob": [
+        "*/**/*.ts",
+        "!node_modules/**",
+        "!dist/**",
+        "config.ts",
+        "test.ts"
+    ],
+    "files": [
+        "loght/db-models/loght-model.ts",
+        "loght/index.ts",
+        "loght/loght.ts",
+        "loght/sequelize-conection.ts",
+        "typings/bluebird/bluebird.d.ts",
+        "typings/consolidate/consolidate.d.ts",
+        "typings/express/express.d.ts",
+        "typings/lang.d.ts",
+        "typings/lodash/lodash.d.ts",
+        "typings/mime/mime.d.ts",
+        "typings/node/node.d.ts",
+        "typings/sequelize/sequelize.d.ts",
+        "typings/serve-static/serve-static.d.ts",
+        "typings/swig/swig.d.ts",
+        "typings/validator/validator.d.ts",
+        "test.ts"
+    ]
+}
